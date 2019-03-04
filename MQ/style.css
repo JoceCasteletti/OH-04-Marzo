@@ -1,0 +1,40 @@
+.cuadradito {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+/* Break point sacado de bootstrap para configurar media queries */
+
+/* xs con los estilos que quiero para ese tamaño */
+@media (max-width: 575.98px) {
+  .cuadradito {
+    background-color: green;
+  }
+}
+
+/* sm con los estilos que quiero para ese tamaño */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .cuadradito {
+    background-color: pink;
+  }
+
+}
+
+/* md con los estilos que quiero para ese tamaño */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cuadradito {
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+  }
+}
+
+/* lg con los estilos que quiero para ese tamaño */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cuadradito {
+    background-color: blue;
+  }
+
+}

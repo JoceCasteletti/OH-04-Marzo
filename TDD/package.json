@@ -2,7 +2,7 @@
   "name": "taller-tdd",
   "version": "1.0.0",
   "description": "taller TDD",
-  "main": "app.js",
+  "main": "TDD/app.js",
   "scripts": {
     "test": "mocha"
   },
